@@ -1,9 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 section {
@@ -29,7 +26,7 @@ h1 {
 /* Utility Classes */
 
 .container {
-    max-width: 1400px;
+    max-width: 1300px;
 }
 
 .orange-text {
@@ -38,17 +35,19 @@ h1 {
 
 .button {
     text-decoration: none;
-    padding: 10px 25px;
+    padding: 12px 25px;
     background-image: linear-gradient(45deg, lightsalmon, tomato);
     text-transform: uppercase;
-    font-size: .9vw;
+    white-space: nowrap;
+    font-size: .75vw;
     font-weight: 300;
-    max-width: 150px;
+    max-width: 180px;
     text-align: center;
     color: white;
     cursor: pointer;
     border-radius: 5px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    margin-top: 25px;
 }
 
 .button:hover {
@@ -72,8 +71,22 @@ h1 {
     justify-content: center;
 }
 
-.first-section .button {
-    margin-top: 25px;
+
+/* Second Section */
+.second-section {
+    background: url("images/dream-bg.png") no-repeat right bottom / 7.5%;
+}
+
+.second-section .container {
+    display: flex;
+    padding: 50px 0;
+}
+
+.second-section .container div:last-child {
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
