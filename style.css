@@ -1,0 +1,79 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 3.5vw;
+    line-height: 1em;
+    margin: 10px 0;
+}
+
+.half-width {
+    width: 50%;
+}
+
+/* Utility Classes */
+
+.container {
+    max-width: 1400px;
+}
+
+.orange-text {
+    color: orange;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 25px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    text-transform: uppercase;
+    font-size: .9vw;
+    font-weight: 300;
+    max-width: 150px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.button:hover {
+    background-image: linear-gradient(45deg, tomato, tomato);
+}
+
+/* First Section */
+.first-section {
+    background: url("images/top-banner.png") no-repeat left top / contain;
+}
+
+.first-section .container {
+    display: flex;
+    padding: 50px 0;
+}
+
+.first-section .container div:first-child {
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first-section .button {
+    margin-top: 25px;
+}
+
+
